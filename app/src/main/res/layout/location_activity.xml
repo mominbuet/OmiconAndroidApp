@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TableLayout
+            android:id="@+id/tblShowLocations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnShowLocation"
+            android:layout_marginTop="32dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+                <TextView
+                    android:id="@+id/tvLocationsId"
+                    android:text="ID"
+                    android:layout_column="0"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tvPrevLocationss"
+                    android:text="Locations"
+                    android:layout_column="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:text="Edit"
+                    android:layout_column="2"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            </TableRow>
+
+            <View
+                android:layout_height="2dip"
+                android:background="#FF5F00" />
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tvShowLocationInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etUserLocation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tblShowLocations"
+            android:layout_alignRight="@+id/tblShowLocations"
+            android:text="Cancel" />
+
+        <EditText
+            android:id="@+id/etUserLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:ems="10"
+            android:hint="Enter Location">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnShowLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tblShowLocations"
+            android:layout_below="@+id/etUserLocation"
+            android:layout_marginTop="34dp"
+            android:text="Save Location" />
+
+    </RelativeLayout>
+</ScrollView>

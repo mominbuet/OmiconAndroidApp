@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#8cc63f"
+            android:textSize="15sp"
+            android:text="Work Type:" />
+
+        <TextView
+            android:id="@+id/detailViewType"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:text="Specimen Distribution" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#8cc63f"
+            android:textSize="15sp"
+            android:text="Location :" />
+
+        <TextView
+            android:id="@+id/detailViewLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:typeface="monospace"
+            android:textSize="18sp"
+            android:text="Mohammad Pur" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <!-- 
+	        <TextView android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.45"
+	            />
+         -->
+        <Button
+            android:id="@+id/addNewDCRDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:typeface="serif"
+            android:background="@android:drawable/btn_default"
+            android:text="New Detail Add" />
+        <!--
+            <TextView android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              />
+      -->
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/itemInfoHeader1"
+            android:background="@drawable/cell_shape"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#7e30cd" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/quantityInfoHeader1"
+            android:background="@drawable/cell_shape"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="#7e30cd" />
+
+        </LinearLayout>
+
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Mobile"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#7e30cd" />
+
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:typeface="serif" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d1be94" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/detailListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/noRecord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:typeface="monospace"
+            android:textSize="20sp"
+            android:text="No Records Found"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</LinearLayout>

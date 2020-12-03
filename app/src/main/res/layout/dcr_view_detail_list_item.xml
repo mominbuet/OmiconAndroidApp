@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/itemInfo"
+        android:orientation="vertical"
+        android:background="@drawable/row_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/codeItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="code"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/codeItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quantityInfo"
+        android:orientation="vertical"
+        android:background="@drawable/row_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/quantityItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/agentInfo"
+        android:orientation="vertical"
+        android:background="@drawable/row_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/agentMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/agentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/agentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:visibility="invisible"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rowButton"
+        android:orientation="horizontal"
+        android:background="@drawable/row_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/addButton1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/edit_dcr_detail" />
+
+        <ImageButton
+            android:id="@+id/deleteButton1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/remove_dcr_detail" />
+    </LinearLayout>
+
+</TableRow>

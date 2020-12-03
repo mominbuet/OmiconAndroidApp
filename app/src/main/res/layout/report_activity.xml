@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="right"
+                android:text="Choose Date:" />
+
+            <EditText
+                android:id="@+id/tvShowDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="5dp"
+                android:drawableRight="@drawable/calendaricon"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TableRow
+            android:id="@+id/reportDCRHeader"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="Location"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Time"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="2dp"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textStyle="bold"
+                android:text="Work Area"
+                android:gravity="center_horizontal"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Meet Person"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".8"
+                android:textStyle="bold"
+                android:text="Purpose"
+                android:gravity="center_horizontal"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Transport"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="Fare"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/reportList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e9d9c8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.7"
+                android:gravity="right"
+                android:text="Sub Total:" />
+
+            <TextView
+                android:id="@+id/subTotal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:gravity="right"
+                android:text="100 taka" />
+        </LinearLayout>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="Expenditure"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Amount(tk)"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/reportListDER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e9d9c8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="right"
+                android:text="Sub Total:" />
+
+            <TextView
+                android:id="@+id/subTotalder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="100 taka" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:text=" Grand Total:" />
+
+            <TextView
+                android:id="@+id/reportGrandTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 100 Taka" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

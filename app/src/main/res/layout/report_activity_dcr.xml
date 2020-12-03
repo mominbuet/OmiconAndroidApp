@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/reportFromLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="Motijheel" />
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:text="->"	/> -->
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/reportToLoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="Jatra Bari" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/reportFromTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:text="10:00 AM" />
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/reportToTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:text="12:00 PM" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/reportWorkArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="Jatra Bari High School" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/reportMeetPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="01720458796" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight=".8">
+
+        <TextView
+            android:id="@+id/reportPurpose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="SD" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.2">
+
+        <TextView
+            android:id="@+id/reportTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="Rickshaw" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/row_item"
+        android:padding="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/reportFare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:typeface="monospace"
+            android:textSize="12sp"
+            android:text="100000" />
+    </LinearLayout>
+
+</LinearLayout>

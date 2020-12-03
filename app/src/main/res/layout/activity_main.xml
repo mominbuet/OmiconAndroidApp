@@ -1,0 +1,424 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[DCR Form Entry]"
+            android:typeface="monospace"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f3e8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Work Type"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <Spinner
+                android:id="@+id/workType"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_edittext"
+                android:entries="@array/worktype_arrays"
+                android:prompt="@string/workType_prompt" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="HR Type"
+            style="@style/title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <RadioGroup
+                android:id="@+id/hrtype"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/self"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Self"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Other ZM" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:id="@+id/numberlayout">
+
+                <AutoCompleteTextView
+                    android:id="@+id/zmmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="zm contact no."
+                    android:singleLine="true"
+                    android:imeOptions="actionNext"
+                    android:typeface="monospace"
+                    android:maxLength="11"
+                    android:inputType="number"></AutoCompleteTextView>
+
+                <LinearLayout
+                    android:id="@+id/otherZM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--
+                        <TextView
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:text="Zonal Manager Information"
+                            android:typeface="monospace"
+                            android:textColor="#5cb85c" />	 -->
+                    <TextView
+                        android:id="@+id/zmName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="Name"
+                        style="@style/suggestionTextStyle" />
+
+                    <TextView
+                        android:id="@+id/zmNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:text="Mobile Number"
+                        android:visibility="gone"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#f6f3e8"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Date "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <EditText
+                android:id="@+id/prevDateValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:paddingRight="5dp"
+                android:drawableRight="@drawable/calendaricon"
+                android:focusable="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Start Location Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <EditText
+                android:id="@+id/fromlocation"
+                android:typeface="monospace"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:background="@drawable/rounded_edittext"
+                android:imeOptions="actionNext"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#f6f3e8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="To Location Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <AutoCompleteTextView
+                android:id="@+id/location"
+                android:typeface="monospace"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:background="@drawable/rounded_edittext"
+                android:imeOptions="actionNext"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Start Time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+
+            <EditText
+                android:id="@+id/stime"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:singleLine="true"
+                android:background="@drawable/rounded_edittext"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/toname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="End Time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <EditText
+                android:id="@+id/etime"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="3"
+                android:singleLine="true"
+                android:background="@drawable/rounded_edittext"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="#f6f3e8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Transport"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <Spinner
+                android:id="@+id/transport"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_edittext"
+                android:entries="@array/transport_arrays"
+                android:prompt="@string/country_prompt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="Cost(in Tk.)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <EditText
+                android:id="@+id/cost"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:background="@drawable/rounded_edittext"
+                android:imeOptions="actionNext"
+                android:maxLength="5"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f3e8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Institution/Work Code"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <AutoCompleteTextView
+                android:id="@+id/institution"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:singleLine="true"
+                android:background="@drawable/rounded_edittext"
+                android:imeOptions="actionNext"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/insnameLayout">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/insname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/suggestionTextStyle"
+                android:text="Name Of institution"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Comments"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                style="@style/title" />
+
+            <EditText
+                android:id="@+id/comments"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:lines="3"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionNext"
+                android:background="@drawable/rounded_edittext" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="3dp"
+            android:drawableTop="@drawable/next"
+            android:text="Continue"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </LinearLayout>
+
+</ScrollView>

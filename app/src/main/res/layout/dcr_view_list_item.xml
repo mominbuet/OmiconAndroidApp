@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/row_item"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/showViewType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/red"
+            android:text="MP"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/showViewLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Offline"
+            android:textSize="15sp"
+            android:typeface="monospace"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/showViewIsManual"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/self" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/row_item"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/showViewFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/showViewFromTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at 9:00 AM"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/row_item"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/showViewTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohakhali"
+            android:textSize="20sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/showViewToTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at 11:30 AM"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/row_item"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/showViewTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CNG/BUS/Auto"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/showViewCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 Taka"
+            android:textSize="12sp"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/row_item"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/showUploaded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/nextMaster1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/viewdetail" />
+
+        <ImageButton
+            android:id="@+id/addMaster1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/edit_dcr_detail" />
+
+        <ImageButton
+            android:id="@+id/deleteMaster1"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/remove_dcr_detail" />
+    </LinearLayout>
+
+</LinearLayout>

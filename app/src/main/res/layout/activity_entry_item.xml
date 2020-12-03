@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:typeface="serif"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/teacherContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="monospace"
+                    android:textSize="15sp"
+                    android:text="01720486789(Teacher)" />
+
+                <TextView
+                    android:id="@+id/teacherOnBehalfContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="monospace"
+                    android:textSize="15sp"
+                    android:text="01720486789(On Behalf)" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:typeface="serif"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/itemCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="monospace"
+                    android:textSize="15sp"
+                    android:text="6568" />
+
+                <TextView
+                    android:id="@+id/itemName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:typeface="monospace"
+                    android:textSize="15sp"
+                    android:text="Newton Biology" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty"
+                android:typeface="serif"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/itemQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:typeface="monospace"
+                android:textSize="15sp"
+                android:text="40" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

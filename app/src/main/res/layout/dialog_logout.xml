@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Logout Reason"
+            style="@style/titleStyle" />
+
+        <Spinner
+            android:id="@+id/logoutReason"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".75" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#e1dbfd">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Current Location\n\t\t\tName"
+            style="@style/titleStyle" />
+
+        <AutoCompleteTextView
+            android:id="@+id/logoutLocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="textCapWords"
+            android:background="@drawable/rounded_edittext" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Comments"
+            style="@style/titleStyle" />
+
+        <EditText
+            android:id="@+id/logoutComments"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:lines="3"
+            android:gravity="top"
+            android:background="@drawable/rounded_edittext" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/forgetMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Me"
+            android:typeface="serif"
+            style="@style/titleStyle" />
+    </LinearLayout>
+
+</LinearLayout>

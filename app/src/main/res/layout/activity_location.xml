@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/titleStyle"
+            android:text="Location Name" />
+
+        <EditText
+            android:id="@+id/locationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="Enter Location"
+            android:inputType="textCapWords"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:typeface="serif"
+        android:text="Save Location" />
+
+    <TableRow
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:background="@drawable/location_shape"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Location Name"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:background="@drawable/location_shape"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:background="@drawable/location_shape"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

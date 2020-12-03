@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.omicon"
+    android:versionCode="37"
+    android:versionName="Kitkat">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--     <uses-permission android:name="android.permission.DUMP"/> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Omicon"
+        android:theme="@style/AppTheme"
+        android:name=".helper.OmiconApplication">
+        <activity
+            android:name="org.omicon.initial.Login"
+            android:label="Omicon"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.omicon.view.dcr_view"
+            android:label="DCR List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.dcr_view_detail"
+            android:label="DCR Detail List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.initial.HomeActivity"
+            android:label="Menu"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.entry.dcr_master"
+            android:label="DCR Entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.entry.EntryActivity"
+            android:label="DCR Entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.DerActivity"
+            android:label="DER Entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.serversync.SyncServer"
+            android:label="Sync With Server"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.LocationEntry"
+            android:label="Location Entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.initial.ChangePassword"
+            android:label="Change Password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.ReportDailyDCR"
+            android:configChanges="orientation"
+            android:label="Daily Expenses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.feedback"
+            android:label="Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.UserLocation"
+            android:label="Location Entry"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.view.message_view"
+            android:label="Message List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.omicon.helper.Debug"
+            android:label="Debug"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="org.omicon.initial.SendUserLocationService"
+            android:enabled="true"
+            android:label="location Service" />
+        <service
+            android:name="org.omicon.initial.WebSocketService"
+            android:enabled="true"
+            android:label="Web Socket Service" />
+
+        <receiver android:name="org.omicon.initial.LocationReceiver" />
+
+        <service
+            android:name=".helper.location_service"
+            android:icon="@drawable/logo_sm"
+            android:label="location service"></service>
+        <service
+            android:name="org.omicon.initial.SendDataReceiver"
+            android:enabled="true"
+            android:label="Upload Service" />
+
+        <receiver android:name="org.omicon.initial.UploadReceiver" />
+        <receiver android:name="org.omicon.initial.SocketReceiver" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d379f4b72098a43ff196a31925d546dbadd4b928" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/backIcon"
+        android:orderInCategory="100"
+        android:icon="@drawable/prev"
+        android:title="Back"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/homeIcon"
+        android:orderInCategory="100"
+        android:icon="@drawable/homeicon"
+        android:title="Home"
+        android:showAsAction="always|withText" />
+</menu>

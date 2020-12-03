@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <!--
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:src="@drawable/entry" />
+
+        <TextView
+            android:id="@+id/menuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:typeface="monospace" />
+     -->
+
+    <RelativeLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/menuIcon"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/entry" />
+
+        <TextView
+            android:id="@+id/MessageCounter"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:layout_alignRight="@+id/menuIcon"
+            android:background="@drawable/circle_textview"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:text="10" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="monospace" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/locationEntryName"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:typeface="monospace"
+        android:background="@drawable/row_item"
+        android:text="Bashundhara City Shopping Mall" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/locationEntryTime"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:background="@drawable/row_item"
+        android:text="10/02/2014\n10:12 PM" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/row_item">
+
+        <ImageButton
+            android:id="@+id/editLocation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/edit_dcr_detail" />
+
+        <ImageButton
+            android:id="@+id/removeLocation"
+            android:layout_marginLeft="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/remove_dcr_detail" />
+
+    </LinearLayout>
+</LinearLayout>

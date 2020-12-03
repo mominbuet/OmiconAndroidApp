@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.omicon.initial.User" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3471" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.omicon.initial.SocketReceiver" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/SocketReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="405" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.omicon.initial.JSON_Range" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/SendUserLocationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="218" x="887" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.omicon.initial.Login.LoginTask" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3695" y="273"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.omicon.initial.logger" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/logger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="170" x="1145" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.omicon.initial.UploadReceiver" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/UploadReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="1355" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.omicon.initial.SendDataReceiver" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/SendDataReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="154" x="1569" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.omicon.initial.DataBase.DataBaseHelper" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/DataBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2379" y="561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.omicon.initial.HomeActivity" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/HomeActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="228" x="619" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.omicon.initial.WebSocketService" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/WebSocketService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="202" x="1763" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.omicon.initial.ChangePassword" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/ChangePassword.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="230" x="2005" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="org.omicon.initial.CurrentLocation" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/CurrentLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="212" x="2275" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="org.omicon.initial.LocationReceiver" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/LocationReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="174" x="2838" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="org.omicon.initial.DataBase" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/DataBase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2410" y="133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="org.omicon.initial.Global" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/Global.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2112" y="578"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="org.omicon.initial.SendUserLocationService" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/SendUserLocationService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="351" width="286" x="3052" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="org.omicon.initial.Login" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/Login.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="387" width="192" x="3599" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="org.omicon.initial.HomeActivity.MyGridAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/HomeActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="729" y="309"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="org.omicon.initial.Session" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/Session.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3926" y="-68"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="org.omicon.initial.DownloadApp" project="Omicon" 
+    file="/Omicon/src/org/omicon/initial/DownloadApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="181" x="3378" y="-247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="org.omicon.serversync.JSON_Range" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/UploadTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="462" y="645"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="org.omicon.serversync.NewVersionDownload" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/NewVersionDownload.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="468" y="416"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="org.omicon.serversync.websocket" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/websocket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="736" y="545"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="org.omicon.serversync.DownloadTask2" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/DownloadTask2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="736" y="984"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="org.omicon.serversync.SyncServer" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/SyncServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1235" y="526"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="org.omicon.serversync.UploadTask" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/UploadTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1238" y="202"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="org.omicon.serversync.DownloadTask" project="Omicon" 
+    file="/Omicon/src/org/omicon/serversync/DownloadTask.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1509" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="org.omicon.helper.getNewAppLink" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/getNewAppLink.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1460" y="394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="org.omicon.helper.pure_helper" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/pure_helper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1784" y="585"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="org.omicon.helper.notificationBuilder" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/notificationBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1302" y="710"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="org.omicon.helper.Debug" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/Debug.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="459" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="org.omicon.helper.dbBackup" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/dbBackup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="740" y="745"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="org.omicon.helper.CustomExceptionHandler" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/CustomExceptionHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1455" y="228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="org.omicon.helper.JSON_Range" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/location_service.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1812" y="971"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="org.omicon.helper.location_service" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/location_service.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1819" y="208"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="org.omicon.helper.DownloadAppSocket" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/DownloadAppSocket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2391" y="838"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="org.omicon.helper.upload_file" project="Omicon" 
+    file="/Omicon/src/org/omicon/helper/upload_file.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1777" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="org.omicon.entry.SuggestionAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/entry/SuggestionAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="156" y="-113"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="org.omicon.entry.EntryActivity" project="Omicon" 
+    file="/Omicon/src/org/omicon/entry/EntryActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="150" y="579"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="org.omicon.entry.EntryItem" project="Omicon" 
+    file="/Omicon/src/org/omicon/entry/EntryItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="472" y="41"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="org.omicon.entry.dcr_master" project="Omicon" 
+    file="/Omicon/src/org/omicon/entry/dcr_master.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="995" y="558"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="org.omicon.view.dcr_view_detail" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/dcr_view_detail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2904" y="21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="org.omicon.view.dcr_view_detail.MyDetailListAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/dcr_view_detail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2900" y="246"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="org.omicon.view.feedback" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/feedback.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3196" y="406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="org.omicon.view.message_view.MessageItem" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/message_view.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4294" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="org.omicon.view.LocationEntry.MyLocationList" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/LocationEntry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4254" y="905"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="org.omicon.view.DerActivity" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/DerActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3949" y="334"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="org.omicon.view.UserLocation" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/UserLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3526" y="653"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="org.omicon.view.ReportDailyDCR" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/ReportDailyDCR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2905" y="586"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="org.omicon.view.LocationEntry.SendUserLocationDataTask" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/LocationEntry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4546" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="org.omicon.view.DerActivity.MyListAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/DerActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3581" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="org.omicon.view.dcr_view.MyListAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/dcr_view.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4613" y="446"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="org.omicon.view.dcr_view" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/dcr_view.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4628" y="144"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="org.omicon.view.DerActivity.ExpenData" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/DerActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3907" y="775"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="org.omicon.view.feedback.FeedBackAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/feedback.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3190" y="209"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="org.omicon.view.ReportDailyDCR.DERReportAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/ReportDailyDCR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2916" y="391"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="org.omicon.view.ReportDailyDCR.DCRReportAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/ReportDailyDCR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2913" y="821"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="org.omicon.view.LocationEntry" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/LocationEntry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4268" y="553"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="org.omicon.view.UserLocation.LocationListAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/UserLocation.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3242" y="649"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="org.omicon.view.message_view" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/message_view.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4616" y="-92"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="org.omicon.view.message_view.MessageListAdapter" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/message_view.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4289" y="-111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="org.omicon.view.Utility" project="Omicon" 
+    file="/Omicon/src/org/omicon/view/Utility.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3463" y="226"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="63">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="64" name="loger"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="66">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="46"/>  
+  </nesting>  
+  <association id="67">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="68" name="session"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="70">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="54"/>  
+  </nesting>  
+  <association id="71">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="72" name="adapter"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="61" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="74">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="43"/>  
+  </nesting>  
+  <association id="75">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="76" name="uinfos"/>      
+      <multiplicity id="77" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="78">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="51"/>  
+  </nesting>  
+  <association id="79">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="80" name="adapter"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="82">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="45"/>  
+  </nesting>  
+  <nesting id="83">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="56"/>  
+  </nesting>  
+  <association id="84">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="85" name="data"/>      
+      <multiplicity id="86" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="88" name="dbObject"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="90">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="50"/>  
+  </nesting>  
+  <nesting id="91">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="57"/>  
+  </nesting>  
+  <association id="92">    
+    <end type="SOURCE" refId="61" navigable="false">      
+      <attribute id="93" name="data"/>      
+      <multiplicity id="94" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="96" name="data_expen">        
+        <position height="18" width="65" x="3846" y="563"/>      
+      </attribute>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="54" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <bendpoint x="2532" y="490"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="99" name="myDbHelper"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="101">    
+    <bendpoint x="3404" y="771"/>    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="59"/>  
+  </nesting>  
+  <nesting id="102">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <association id="103">    
+    <bendpoint x="2420" y="382"/>    
+    <bendpoint x="2540" y="381"/>    
+    <bendpoint x="2551" y="376"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="104" name="databaseHandler"/>      
+      <multiplicity id="105" minimum="0" maximum="1">        
+        <position height="16" width="23" x="2560" y="373"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="106">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="107" name="adapter"/>      
+      <multiplicity id="108" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="109">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="110" name="loger"/>      
+      <multiplicity id="111" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="112">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="52"/>  
+  </nesting>  
+  <nesting id="113">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="55"/>  
+  </nesting>  
+  <nesting id="114">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="18"/>  
+  </nesting>  
+  <nesting id="115">    
+    <bendpoint x="4563" y="-159"/>    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="61"/>  
+  </nesting>  
+  <association id="116">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="117" name="adapter"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="59" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="119">    
+    <bendpoint x="273" y="329"/>    
+    <bendpoint x="299" y="325"/>    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="120" name="data"/>      
+      <multiplicity id="121" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="122">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
